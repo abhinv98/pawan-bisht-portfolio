@@ -7,110 +7,143 @@ const BASE_URL = "https://pub-296f1f1d748846f99b7dbcda087bbd96.r2.dev"
 
 const portfolioData = [
   {
-    category: "SHORT-FORM_MASTERY",
-    intro: "I breathe rhythm into vertical frames. From viral campaigns to brand storytelling, I sculpt content that stops the scroll.",
+    category: "SHORT-FORM_VIDEO_EDITING",
+    intro: "I breathe rhythm into vertical frames. From viral campaigns to authentic storytelling, I sculpt content that stops the scroll.",
     projects: [
       {
         title: "PODAR PREP",
         brand: "Podar Prep",
-        description: "Engaging children's activity reels and leadership content for Dr. Swati Popat Vats. Blending education with high-energy visuals.",
+        description: "Edited engaging children's activity reels and Dr. Swati Popat Vats' thought-leadership content, blending education with high-energy visuals.",
         video: `${BASE_URL}/work/Motion Graphics/Podar 1.mp4`,
         allVideos: [`${BASE_URL}/work/Motion Graphics/Podar 1.mp4`]
       },
       {
-        title: "TIMES OF INDIA KOLKATA",
-        brand: "Times of India",
-        description: "Produced viral campaign reels for 'I Am Kolkata' initiative. Every cut is a heartbeat of the city.",
+        title: "TIMES OF INDIA",
+        brand: "Times of India (Kolkata)",
+        description: "Produced viral campaign reels for the 'I Am Kolkata' initiative. Capturing the heartbeat and city-wide engagement of Kolkata.",
         video: `${BASE_URL}/work/Motion Graphics/TOI 1.mp4`,
-        allVideos: [`${BASE_URL}/work/Motion Graphics/TOI 1.mp4`, `${BASE_URL}/work/Long Format/TOI case study_17 OCT.mp4`]
+        allVideos: [
+          `${BASE_URL}/work/Motion Graphics/TOI 1.mp4`,
+          `${BASE_URL}/work/Long Format/TOI case study_17 OCT.mp4`
+        ]
       },
       {
-        title: "NIPS BRANDING",
-        brand: "Nehru International Public School",
-        description: "School branding and academic showcase videos, capturing authentic student culture.",
-        video: `${BASE_URL}/work/Video Editing/NIPS/Reel 2 A day in the life_SUB.mp4`,
-        allVideos: [`${BASE_URL}/work/Video Editing/NIPS/Reel 2 A day in the life_SUB.mp4`, `${BASE_URL}/work/Video Editing/NIPS/Student Testimonial-video-export-2025-04-25T16-35-08.101Z.mp4`]
+        title: "CULT STUDIO",
+        brand: "Cult Studio",
+        description: "Created dynamic behind-the-scenes reels capturing studio culture and raw atmospheric energy.",
+        video: `${BASE_URL}/work/AI Videos/Model BTS copy.mp4`,
+        allVideos: [`${BASE_URL}/work/AI Videos/Model BTS copy.mp4`]
       },
       {
         title: "SBI YIFI",
         brand: "SBI YiFi",
-        description: "Compelling fellowship program videos for youth engagement. Dynamic and fast-paced.",
+        description: "Developed compelling fellowship program videos for youth engagement, focusing on high impact and fast-paced storytelling.",
         video: `${BASE_URL}/work/Video Editing/SBI/Emoji Reel.mp4`,
-        allVideos: [`${BASE_URL}/work/Video Editing/SBI/Emoji Reel.mp4`, `${BASE_URL}/work/Motion Graphics/Gandhi Fellowship.mp4`]
+        allVideos: [
+          `${BASE_URL}/work/Video Editing/SBI/Emoji Reel.mp4`,
+          `${BASE_URL}/work/Motion Graphics/Gandhi Fellowship.mp4`
+        ]
+      },
+      {
+        title: "NIPS BRANDING",
+        brand: "Nehru International Public School",
+        description: "Produced school branding and academic showcase videos, highlighting authentic student experiences and testimonials.",
+        video: `${BASE_URL}/work/Video Editing/NIPS/Reel 2 A day in the life_SUB.mp4`,
+        allVideos: [
+          `${BASE_URL}/work/Video Editing/NIPS/Reel 2 A day in the life_SUB.mp4`,
+          `${BASE_URL}/work/Video Editing/NIPS/Student Testimonial-video-export-2025-04-25T16-35-08.101Z.mp4`
+        ]
       },
       {
         title: "ECULTIFY",
         brand: "Ecultify",
-        description: "Trending festival reels and high-engagement content, staying ahead of digital trends.",
+        description: "Delivered trending festival reels and high-engagement Instagram content for a digital-first audience.",
         video: `${BASE_URL}/work/Video Editing/eCULTIFY/ChristmasReel_thd3.mp4`,
         allVideos: [`${BASE_URL}/work/Video Editing/eCULTIFY/ChristmasReel_thd3.mp4`]
+      },
+      {
+        title: "VIBGYOR & JEWEL HOUSE",
+        brand: "Vibgyor / Jewel House",
+        description: "Authentic teacher and parent testimonials for Vibgyor, alongside premium product showcases for Jewel House luxury jewelry.",
+        video: `${BASE_URL}/work/Motion Graphics/sample video.mp4`,
+        allVideos: [`${BASE_URL}/work/Motion Graphics/sample video.mp4`]
       }
     ]
   },
   {
-    category: "AI_SYNTHESIS",
-    intro: "I merge human creativity with artificial intelligence, using AI as a new medium to tell previously impossible stories.",
+    category: "AI-GENERATED_CONTENT",
+    intro: "Merging human creativity with artificial intelligence to build futuristic narratives and digital personas.",
     projects: [
+      {
+        title: "CULT STUDIO AI",
+        brand: "Cult Studio",
+        description: "Developed a groundbreaking AI avatar promotional reel, pushing the boundaries of digital human synthesis.",
+        video: `${BASE_URL}/work/AI Videos/PaPA JI.mp4`,
+        allVideos: [`${BASE_URL}/work/AI Videos/PaPA JI.mp4`]
+      },
+      {
+        title: "TEAK AND TRADITION",
+        brand: "Teak and Tradition",
+        description: "Produced AI avatar-driven furniture brand storytelling content, bridging traditional craftsmanship with futuristic tech.",
+        video: `${BASE_URL}/work/AI Videos/Papa ji 2.mp4`,
+        allVideos: [`${BASE_URL}/work/AI Videos/Papa ji 2.mp4`]
+      },
       {
         title: "MARCO AI",
         brand: "Marco AI",
-        description: "AI spokesperson video for brand introduction, making digital avatars feel startlingly human.",
+        description: "Created an AI spokesperson video for a major brand introduction, focusing on realistic digital human performance.",
         video: `${BASE_URL}/work/AI Videos/Marco.mp4`,
         allVideos: [`${BASE_URL}/work/AI Videos/Marco.mp4`]
       },
       {
         title: "CRICKSTAR",
         brand: "Crickstar",
-        description: "AI avatar promotional content for app launch, creating a futuristic vibe.",
+        description: "Built AI avatar promotional content for an app launch campaign, blending sports energy with AI innovation.",
         video: `${BASE_URL}/work/AI Videos/CRICKSTAR.mp4`,
         allVideos: [`${BASE_URL}/work/AI Videos/CRICKSTAR.mp4`]
-      },
-      {
-        title: "PAPA JI",
-        brand: "Cultural Storytelling",
-        description: "Breathed life into traditional narratives using AI avatars for a digital generation.",
-        video: `${BASE_URL}/work/AI Videos/PaPA JI.mp4`,
-        allVideos: [`${BASE_URL}/work/AI Videos/PaPA JI.mp4`, `${BASE_URL}/work/AI Videos/Papa ji 2.mp4`]
       }
     ]
   },
   {
-    category: "MOTION_DYNAMICS",
-    intro: "I define the physics of the digital world, creating motion that explains and elevates brand identities.",
+    category: "MOTION_GRAPHICS",
+    intro: "Designing the physics of information. Explaining features and storytelling through dynamic animated elements.",
     projects: [
       {
         title: "BLINK X",
         brand: "Blink X",
-        description: "Motion graphics explainer for trading app features, making complex tools intuitive.",
+        description: "Designed a motion graphics explainer for new trading app features. Precision motion for complex information.",
         video: `${BASE_URL}/work/Motion Graphics/Blink X_1.mp4`,
         allVideos: [`${BASE_URL}/work/Motion Graphics/Blink X_1.mp4`]
       },
       {
-        title: "TIMES OF INDIA MOTION",
+        title: "TOI KOLKATA ANIMATION",
         brand: "Times of India",
-        description: "Animated reels for TOI Kolkata campaigns, ensuring brand messages pop on screen.",
+        description: "Created animated reels for the TOI Kolkata campaign, ensuring brand visibility in a fast-moving social feed.",
         video: `${BASE_URL}/work/Motion Graphics/TOI 1.mp4`,
         allVideos: [`${BASE_URL}/work/Motion Graphics/TOI 1.mp4`]
       }
     ]
   },
   {
-    category: "MISCELLANEOUS_ARCHIVE",
-    intro: "Experimental renders and diverse projects. Where I push the limits and explore new visual languages.",
+    category: "MISCELLANEOUS",
+    intro: "Experimental cuts, long-form narratives, and Diverse renders from various creative explorations.",
     projects: [
       {
-        title: "OORJA",
+        title: "OORJA NARRATIVE",
         brand: "Long Format",
-        description: "Exploration into long-form narrative, focusing on sound design and pacing.",
+        description: "A deep dive into long-form storytelling. Focused on sub-titles, voiceovers, and sustained atmospheric tension.",
         video: `${BASE_URL}/work/Long Format/Oorja With English Sub and VO.mp4`,
         allVideos: [`${BASE_URL}/work/Long Format/Oorja With English Sub and VO.mp4`]
       },
       {
-        title: "EXPERIMENTAL",
-        brand: "Diverse Works",
-        description: "Pari Match renders and other diverse projects that push the craft.",
+        title: "PARI MATCH & EXPERIMENTAL",
+        brand: "Miscellaneous",
+        description: "Diverse projects including Pari Match renders and experimental cuts that test the limits of the timeline.",
         video: `${BASE_URL}/work/Video Editing/Pari match/Render.mp4`,
-        allVideos: [`${BASE_URL}/work/Video Editing/Pari match/Render.mp4`, `${BASE_URL}/work/Motion Graphics/sample video.mp4`, `${BASE_URL}/work/AI Videos/Model BTS copy.mp4`]
+        allVideos: [
+          `${BASE_URL}/work/Video Editing/Pari match/Render.mp4`,
+          `${BASE_URL}/work/Motion Graphics/sample video.mp4`
+        ]
       }
     ]
   }
@@ -124,7 +157,7 @@ function GridItem({ project }: { project: any }) {
   useEffect(() => {
     if (videoRef.current) {
       if (isHovered) {
-        videoRef.current.play().catch(err => console.log("Playback blocked or interrupted:", err));
+        videoRef.current.play().catch(err => console.log("Playback blocked:", err));
       } else {
         videoRef.current.pause();
         videoRef.current.currentTime = 0;
@@ -156,7 +189,6 @@ function GridItem({ project }: { project: any }) {
         
         <div className={`absolute inset-0 bg-noir-black/40 transition-opacity duration-700 ${isHovered ? 'opacity-20' : 'opacity-60'}`} />
 
-        {/* Content Overlay */}
         <div className="absolute inset-0 p-6 flex flex-col justify-end z-20">
           <motion.div
             animate={{ y: isHovered ? 0 : 10, opacity: isHovered ? 1 : 0.7 }}
