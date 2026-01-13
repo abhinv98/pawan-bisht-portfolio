@@ -28,8 +28,8 @@ export default function Contact() {
             </p>
             
             <div className="flex flex-col gap-6">
-              <a href="mailto:i@visualalchemy.com" className="text-2xl md:text-4xl lg:text-5xl font-display font-black text-white hover:text-noir-gold transition-colors break-all">
-                I@VISUALALCHEMY.COM
+              <a href="mailto:pawanbisht730@gmail.com" className="text-2xl md:text-4xl lg:text-5xl font-display font-black text-white hover:text-noir-gold transition-colors break-all">
+                PAWANBISHT730@GMAIL.COM
               </a>
               <div className="flex flex-wrap gap-x-8 gap-y-4">
                 <a href="#" className="text-[10px] md:text-sm font-bold tracking-widest text-noir-lightGray hover:text-white transition-colors">INSTAGRAM</a>
