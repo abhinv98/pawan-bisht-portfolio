@@ -17,18 +17,18 @@ export default function Hero() {
           <div className="flex items-center gap-4 mb-6">
             <div className="w-12 h-px bg-noir-gold"></div>
             <span className="text-noir-gold font-display italic text-sm tracking-widest lowercase">
-              i am pawan bisht — i breathe life into moving images
+              i am pawan bisht — i make every frame count
             </span>
           </div>
 
           <h1 className="text-8xl md:text-[15vw] font-display font-black leading-[0.75] tracking-tighter text-white uppercase mb-12">
-            VISUAL<br />
-            <span className="text-noir-gold italic mix-blend-difference">ALCHΞMY</span>
+            THE<br />
+            <span className="text-noir-gold italic mix-blend-difference">CUT.</span>
           </h1>
 
-          <p className="max-w-2xl text-xl md:text-2xl text-noir-lightGray font-light leading-relaxed mb-16 italic">
-            "I don't just edit; I sculpt emotions out of the darkness. 
-            I find the rhythm in the silence and the light in the shadows."
+          <p className="max-w-2xl text-xl md:text-2xl text-noir-lightGray font-light leading-relaxed mb-16">
+            "I don't just edit video. I build high-impact narratives that demand attention. 
+            I focus on rhythm, pacing, and visual precision to make your story impossible to ignore."
           </p>
 
           <motion.div
@@ -36,14 +36,13 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
             className="flex items-center gap-6 cursor-pointer group"
           >
-            <span className="text-sm font-bold tracking-[0.5em] text-white group-hover:text-noir-gold transition-colors">SEE MY STORY</span>
+            <span className="text-sm font-bold tracking-[0.5em] text-white group-hover:text-noir-gold transition-colors">VIEW PROJECTS</span>
             <div className="w-24 h-px bg-noir-gold origin-left group-hover:scale-x-150 transition-transform duration-700"></div>
           </motion.div>
         </motion.div>
       </div>
 
-      {/* Atmospheric Text */}
-      <div className="absolute bottom-12 right-12 text-[10vw] font-display font-black text-white/[0.02] pointer-events-none select-none">
+      <div className="absolute bottom-12 right-12 text-[10vw] font-display font-black text-white/[0.02] pointer-events-none select-none uppercase">
         SCENE_01
       </div>
     </div>

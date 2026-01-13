@@ -7,20 +7,20 @@ const BASE_URL = "https://pub-296f1f1d748846f99b7dbcda087bbd96.r2.dev"
 
 const portfolioData = [
   {
-    category: "SHORT-FORM_VIDEO_EDITING",
-    intro: "I breathe rhythm into vertical frames. From viral campaigns to authentic storytelling, I sculpt content that stops the scroll.",
+    category: "SHORT-FORM_REELS",
+    intro: "I specialize in fast-paced, high-engagement content. From viral Instagram trends to sharp brand storytelling, I craft edits that stop the scroll instantly.",
     projects: [
       {
         title: "PODAR PREP",
         brand: "Podar Prep",
-        description: "Edited engaging children's activity reels and Dr. Swati Popat Vats' thought-leadership content, blending education with high-energy visuals.",
+        description: "I took complex educational concepts and turned them into high-energy reels for children and parents. Every cut is designed to maintain focus.",
         video: `${BASE_URL}/work/Motion Graphics/Podar 1.mp4`,
         allVideos: [`${BASE_URL}/work/Motion Graphics/Podar 1.mp4`]
       },
       {
         title: "TIMES OF INDIA",
-        brand: "Times of India (Kolkata)",
-        description: "Produced viral campaign reels for the 'I Am Kolkata' initiative. Capturing the heartbeat and city-wide engagement of Kolkata.",
+        brand: "Times of India",
+        description: "I produced the 'I Am Kolkata' campaign reels. The challenge was capturing the city's chaotic energy in 15 seconds. It went viral.",
         video: `${BASE_URL}/work/Motion Graphics/TOI 1.mp4`,
         allVideos: [
           `${BASE_URL}/work/Motion Graphics/TOI 1.mp4`,
@@ -30,14 +30,14 @@ const portfolioData = [
       {
         title: "CULT STUDIO",
         brand: "Cult Studio",
-        description: "Created dynamic behind-the-scenes reels capturing studio culture and raw atmospheric energy.",
+        description: "I created raw, behind-the-scenes content that sold the studio's culture. This was about energy and authentic atmosphere.",
         video: `${BASE_URL}/work/AI Videos/Model BTS copy.mp4`,
         allVideos: [`${BASE_URL}/work/AI Videos/Model BTS copy.mp4`]
       },
       {
         title: "SBI YIFI",
         brand: "SBI YiFi",
-        description: "Developed compelling fellowship program videos for youth engagement, focusing on high impact and fast-paced storytelling.",
+        description: "I developed a series of fellowship videos aimed at Gen Z. I used aggressive pacing and modern transitions to keep them watching.",
         video: `${BASE_URL}/work/Video Editing/SBI/Emoji Reel.mp4`,
         allVideos: [
           `${BASE_URL}/work/Video Editing/SBI/Emoji Reel.mp4`,
@@ -46,8 +46,8 @@ const portfolioData = [
       },
       {
         title: "NIPS BRANDING",
-        brand: "Nehru International Public School",
-        description: "Produced school branding and academic showcase videos, highlighting authentic student experiences and testimonials.",
+        brand: "NIPS School",
+        description: "I handled the full school branding through video. I focused on student testimonials to build trust and show real results.",
         video: `${BASE_URL}/work/Video Editing/NIPS/Reel 2 A day in the life_SUB.mp4`,
         allVideos: [
           `${BASE_URL}/work/Video Editing/NIPS/Reel 2 A day in the life_SUB.mp4`,
@@ -57,48 +57,48 @@ const portfolioData = [
       {
         title: "ECULTIFY",
         brand: "Ecultify",
-        description: "Delivered trending festival reels and high-engagement Instagram content for a digital-first audience.",
+        description: "I delivered trend-focused festival reels. I worked closely with their team to ensure the timing of every beat hit perfectly.",
         video: `${BASE_URL}/work/Video Editing/eCULTIFY/ChristmasReel_thd3.mp4`,
         allVideos: [`${BASE_URL}/work/Video Editing/eCULTIFY/ChristmasReel_thd3.mp4`]
       },
       {
         title: "VIBGYOR & JEWEL HOUSE",
         brand: "Vibgyor / Jewel House",
-        description: "Authentic teacher and parent testimonials for Vibgyor, alongside premium product showcases for Jewel House luxury jewelry.",
+        description: "I balanced authentic human testimonials with high-end product cinematography. Two different styles, one goal: premium quality.",
         video: `${BASE_URL}/work/Motion Graphics/sample video.mp4`,
         allVideos: [`${BASE_URL}/work/Motion Graphics/sample video.mp4`]
       }
     ]
   },
   {
-    category: "AI-GENERATED_CONTENT",
-    intro: "Merging human creativity with artificial intelligence to build futuristic narratives and digital personas.",
+    category: "AI_PRODUCTION",
+    intro: "I'm using AI to break traditional production limits. I create digital spokespeople and avatar-driven stories that feel more real than ever.",
     projects: [
       {
         title: "CULT STUDIO AI",
         brand: "Cult Studio",
-        description: "Developed a groundbreaking AI avatar promotional reel, pushing the boundaries of digital human synthesis.",
+        description: "I developed their first AI avatar promo. I focused on mouth-sync and digital body language to ensure it didn't feel robotic.",
         video: `${BASE_URL}/work/AI Videos/PaPA JI.mp4`,
         allVideos: [`${BASE_URL}/work/AI Videos/PaPA JI.mp4`]
       },
       {
         title: "TEAK AND TRADITION",
         brand: "Teak and Tradition",
-        description: "Produced AI avatar-driven furniture brand storytelling content, bridging traditional craftsmanship with futuristic tech.",
+        description: "I used an AI avatar to tell the story of traditional furniture. It's a blend of old-world craftsmanship and new-world tech.",
         video: `${BASE_URL}/work/AI Videos/Papa ji 2.mp4`,
         allVideos: [`${BASE_URL}/work/AI Videos/Papa ji 2.mp4`]
       },
       {
         title: "MARCO AI",
         brand: "Marco AI",
-        description: "Created an AI spokesperson video for a major brand introduction, focusing on realistic digital human performance.",
+        description: "I built their brand introduction video using a digital spokesperson. I handled the lighting and integration to make it look seamless.",
         video: `${BASE_URL}/work/AI Videos/Marco.mp4`,
         allVideos: [`${BASE_URL}/work/AI Videos/Marco.mp4`]
       },
       {
         title: "CRICKSTAR",
         brand: "Crickstar",
-        description: "Built AI avatar promotional content for an app launch campaign, blending sports energy with AI innovation.",
+        description: "I launched this sports app using AI avatar content. I wanted to create a futuristic vibe that screamed innovation.",
         video: `${BASE_URL}/work/AI Videos/CRICKSTAR.mp4`,
         allVideos: [`${BASE_URL}/work/AI Videos/CRICKSTAR.mp4`]
       }
@@ -106,39 +106,39 @@ const portfolioData = [
   },
   {
     category: "MOTION_GRAPHICS",
-    intro: "Designing the physics of information. Explaining features and storytelling through dynamic animated elements.",
+    intro: "I explain ideas through motion. I design animated elements that clarify complex data and make brand messages pop off the screen.",
     projects: [
       {
         title: "BLINK X",
         brand: "Blink X",
-        description: "Designed a motion graphics explainer for new trading app features. Precision motion for complex information.",
+        description: "I designed an explainer for their trading app. I made complex stock data look intuitive and visually appealing through motion.",
         video: `${BASE_URL}/work/Motion Graphics/Blink X_1.mp4`,
         allVideos: [`${BASE_URL}/work/Motion Graphics/Blink X_1.mp4`]
       },
       {
-        title: "TOI KOLKATA ANIMATION",
+        title: "TOI ANIMATION",
         brand: "Times of India",
-        description: "Created animated reels for the TOI Kolkata campaign, ensuring brand visibility in a fast-moving social feed.",
+        description: "I brought static brand elements to life for the TOI Kolkata campaign. I made sure the motion felt as fast as the news cycle.",
         video: `${BASE_URL}/work/Motion Graphics/TOI 1.mp4`,
         allVideos: [`${BASE_URL}/work/Motion Graphics/TOI 1.mp4`]
       }
     ]
   },
   {
-    category: "MISCELLANEOUS",
-    intro: "Experimental cuts, long-form narratives, and Diverse renders from various creative explorations.",
+    category: "EXPERIMENTAL_LOGS",
+    intro: "This is where I test new techniques. From long-form documentaries to raw renders, these projects show the breadth of my technical skills.",
     projects: [
       {
         title: "OORJA NARRATIVE",
         brand: "Long Format",
-        description: "A deep dive into long-form storytelling. Focused on sub-titles, voiceovers, and sustained atmospheric tension.",
+        description: "I spent months on this long-form project. I handled everything from sound design to the final color grade. It's a slow-burn narrative.",
         video: `${BASE_URL}/work/Long Format/Oorja With English Sub and VO.mp4`,
         allVideos: [`${BASE_URL}/work/Long Format/Oorja With English Sub and VO.mp4`]
       },
       {
-        title: "PARI MATCH & EXPERIMENTAL",
-        brand: "Miscellaneous",
-        description: "Diverse projects including Pari Match renders and experimental cuts that test the limits of the timeline.",
+        title: "PARI MATCH & RENDERS",
+        brand: "Experimental",
+        description: "A collection of my recent visual tests and miscellaneous projects. This is where I push my software to the breaking point.",
         video: `${BASE_URL}/work/Video Editing/Pari match/Render.mp4`,
         allVideos: [
           `${BASE_URL}/work/Video Editing/Pari match/Render.mp4`,
@@ -149,10 +149,23 @@ const portfolioData = [
   }
 ]
 
-function GridItem({ project }: { project: any }) {
+function GridItem({ project, category }: { project: any, category: string }) {
   const [isHovered, setIsHovered] = useState(false)
   const [showGallery, setShowGallery] = useState(false)
   const videoRef = useRef<HTMLVideoElement>(null)
+
+  const isVerticalVideo = (url: string) => {
+    const lower = url.toLowerCase();
+    // Keywords that suggest vertical
+    if (lower.includes('reel') || lower.includes('portrait') || lower.includes('short')) return true;
+    // Specific folders that are vertical
+    if (lower.includes('ai%20videos') || lower.includes('ai videos')) return true;
+    // Categories that are predominantly vertical, unless they mention landscape/case study
+    if ((category === "SHORT-FORM_REELS" || category === "AI_PRODUCTION") && !lower.includes('case%20study') && !lower.includes('case study') && !lower.includes('long')) return true;
+    return false;
+  };
+
+  const projectIsVertical = isVerticalVideo(project.video);
 
   useEffect(() => {
     if (videoRef.current) {
@@ -175,7 +188,7 @@ function GridItem({ project }: { project: any }) {
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
         onClick={() => setShowGallery(true)}
-        className="relative aspect-video md:aspect-[4/5] bg-noir-dark overflow-hidden border border-white/5 cursor-pointer group"
+        className={`relative ${projectIsVertical ? 'aspect-[9/16]' : 'aspect-video md:aspect-[4/5]'} bg-noir-dark overflow-hidden border border-white/5 cursor-pointer group`}
       >
         <video
           ref={videoRef}
@@ -230,15 +243,18 @@ function GridItem({ project }: { project: any }) {
               </button>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pb-20">
-              {project.allVideos.map((vid: string, i: number) => (
-                <div key={i} className="group relative aspect-video bg-noir-dark border border-white/10 overflow-hidden">
-                  <video src={vid} controls className="w-full h-full object-cover" />
-                  <div className="absolute top-4 left-4 bg-noir-black/80 px-3 py-1 text-[10px] font-mono text-noir-gold tracking-widest border-l-2 border-noir-gold">
-                    VERSION_{String(i+1).padStart(2, '0')}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 pb-20">
+              {project.allVideos.map((vid: string, i: number) => {
+                const isVertical = isVerticalVideo(vid);
+                return (
+                  <div key={i} className={`group relative ${isVertical ? 'aspect-[9/16]' : 'aspect-video'} bg-noir-dark border border-white/10 overflow-hidden`}>
+                    <video src={vid} controls className="w-full h-full object-cover" />
+                    <div className="absolute top-4 left-4 bg-noir-black/80 px-3 py-1 text-[10px] font-mono text-noir-gold tracking-widest border-l-2 border-noir-gold">
+                      VERSION_{String(i+1).padStart(2, '0')}
+                    </div>
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </motion.div>
         )}
@@ -261,12 +277,12 @@ export default function Portfolio() {
           >
             <div className="flex justify-center items-center gap-6 mb-8">
               <div className="h-px w-24 bg-noir-gold/30"></div>
-              <span className="text-noir-gold font-display text-2xl italic lowercase tracking-[0.2em]">selected works by pawan bisht</span>
+              <span className="text-noir-gold font-display text-2xl italic lowercase tracking-[0.2em]">work by pawan bisht</span>
               <div className="h-px w-24 bg-noir-gold/30"></div>
             </div>
             <h2 className="text-[12vw] font-display font-black text-white leading-[0.8] uppercase tracking-tighter">
-              VISUAL<br />
-              <span className="text-noir-gold italic">ALCHEMY.</span>
+              SELECTED<br />
+              <span className="text-noir-gold italic">EDITS.</span>
             </h2>
           </motion.div>
         </div>
@@ -281,7 +297,7 @@ export default function Portfolio() {
                     <div className="h-px w-12 bg-noir-gold"></div>
                   </div>
                   <h3 className="text-6xl md:text-8xl font-display font-black text-white mb-8 tracking-tighter">{category.category}</h3>
-                  <p className="text-xl md:text-2xl text-noir-lightGray italic font-light leading-relaxed max-w-2xl border-l-2 border-noir-gold/20 pl-8">
+                  <p className="text-xl md:text-2xl text-noir-lightGray font-light leading-relaxed max-w-2xl border-l-2 border-noir-gold/20 pl-8">
                     "{category.intro}"
                   </p>
                 </div>
@@ -293,7 +309,7 @@ export default function Portfolio() {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                 {category.projects.map((project) => (
-                  <GridItem key={project.title} project={project} />
+                  <GridItem key={project.title} project={project} category={category.category} />
                 ))}
               </div>
             </div>

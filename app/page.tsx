@@ -24,16 +24,16 @@ export default function Home() {
   // Track scroll for the entire page
   const { scrollYProgress } = useScroll()
 
-  // Scene 1: Hero translates left (0% to 12% of scroll)
-  const heroX = useTransform(scrollYProgress, [0, 0.12], ["0%", "-100%"])
-  const heroOpacity = useTransform(scrollYProgress, [0.1, 0.12], [1, 0])
+  // Scene 1: Hero translates left (0% to 15% of scroll)
+  const heroX = useTransform(scrollYProgress, [0, 0.15], ["0%", "-100%"])
+  const heroOpacity = useTransform(scrollYProgress, [0.12, 0.15], [1, 0])
   
-  // Scene 3: Contact translates in (88% to 100% of scroll)
-  const contactX = useTransform(scrollYProgress, [0.88, 1], ["100%", "0%"])
-  const contactOpacity = useTransform(scrollYProgress, [0.88, 0.92], [0, 1])
+  // Scene 3: Contact translates in (85% to 100% of scroll)
+  const contactX = useTransform(scrollYProgress, [0.85, 1], ["100%", "0%"])
+  const contactOpacity = useTransform(scrollYProgress, [0.85, 0.88], [0, 1])
 
   return (
-    <main className="relative bg-noir-black text-noir-white min-h-[800vh]">
+    <main className="relative bg-noir-black text-noir-white min-h-[900vh]">
       <div className="film-grain" />
       <div className="video-scanline" />
       
